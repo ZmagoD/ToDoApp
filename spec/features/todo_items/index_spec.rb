@@ -10,6 +10,6 @@ describe "Viewing todo items" do
            click_link "List Items" 
         end
         
-        expect(page).to have_content("TodoItems#index")
+        expect(page).to have_content("Groceries")
     end
 end
